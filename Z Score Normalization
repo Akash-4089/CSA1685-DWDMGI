@@ -1,0 +1,6 @@
+diabetes=read.csv("D:\\DDM\\diabetes.csv")
+A=c(diabetes$Age)
+mean=mean(A)
+std=sd(A)
+zscore=(A-mean)/std
+zscore
